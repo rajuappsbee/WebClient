@@ -136,76 +136,76 @@
         src="http://shapeshed.com/examples/HTML5-video-element/video/320x240.ogg">
       </video>-->
     </div>
-    
-    <div id="phone">
+    <div class="reldiv">
+		<div id="phone">
+		  <div class="status">
+			<div id="conn-status">
+			  <span class="field">status: </span>
+			  <span class="value"></span>
+			</div>
+			<!--
+			<div>
+			  <span class="field">register: </span>
+			  <input type="checkbox" id="register"/>
+			</div>-->
+			
+			<div>
+			  <span class="field">enable video: </span>
+			  <input type="checkbox" id="enableVideo" checked/>
+			</div>
+			<!--
+			<div>
+			  <span class="field">user: </span>
+			  <span class="value user"></span>
+			</div>
+			-->
+		  </div>
 
-      <div class="status">
-        <div id="conn-status">
-          <span class="field">status: </span>
-          <span class="value"></span>
-        </div>
-        <!--
-        <div>
-          <span class="field">register: </span>
-          <input type="checkbox" id="register"/>
-        </div>-->
-		
-        <div>
-          <span class="field">enable video: </span>
-          <input type="checkbox" id="enableVideo" checked/>
-        </div>
-		<!--
-        <div>
-          <span class="field">user: </span>
-          <span class="value user"></span>
-        </div>
-        -->
-      </div>
+		  <div class="controls">
 
-      <div class="controls">
+			<div class="ws-disconnected"></div>
 
-        <div class="ws-disconnected"></div>
+			<div class="dialbox">
+			  <input type="text" class="destination" value=""/>
+			  <div class="to">To:</div>
+			  <div class="dial-buttons">
+				<div class="button call">call</div>
+				<div class="line-separator"></div>
+				<div class="button chat">chat</div>
+			  </div>
+			</div>
+	<!--
+			<div class="dialpad">
+			  <div class="line">
+				<div class="button digit-1">1</div>
+				<div class="button digit-2">2</div>
+				<div class="button digit-3">3</div>
+			  </div>
+			  <div class="line-separator"></div>
+			  <div class="line">
+				<div class="button digit-4">4</div>
+				<div class="button digit-5">5</div>
+				<div class="button digit-6">6</div>
+			  </div>
+			  <div class="line-separator"></div>
+			  <div class="line">
+				<div class="button digit-7">7</div>
+				<div class="button digit-8">8</div>
+				<div class="button digit-9">9</div>
+			  </div>
+			  <div class="line-separator"></div>
+			  <div class="line">
+				<div class="button digit-asterisk">*</div>
+				<div class="button digit-0">0</div>
+				<div class="button digit-pound">#</div>
+			  </div>
+			</div>
+	<!-- .dialpad -->
 
-        <div class="dialbox">
-          <input type="text" class="destination" value=""/>
-          <div class="to">To:</div>
-          <div class="dial-buttons">
-            <div class="button call">call</div>
-            <div class="line-separator"></div>
-            <div class="button chat">chat</div>
-          </div>
-        </div>
-<!--
-        <div class="dialpad">
-          <div class="line">
-            <div class="button digit-1">1</div>
-            <div class="button digit-2">2</div>
-            <div class="button digit-3">3</div>
-          </div>
-          <div class="line-separator"></div>
-          <div class="line">
-            <div class="button digit-4">4</div>
-            <div class="button digit-5">5</div>
-            <div class="button digit-6">6</div>
-          </div>
-          <div class="line-separator"></div>
-          <div class="line">
-            <div class="button digit-7">7</div>
-            <div class="button digit-8">8</div>
-            <div class="button digit-9">9</div>
-          </div>
-          <div class="line-separator"></div>
-          <div class="line">
-            <div class="button digit-asterisk">*</div>
-            <div class="button digit-0">0</div>
-            <div class="button digit-pound">#</div>
-          </div>
-        </div>
-<!-- .dialpad -->
-
-      </div><!-- .controls -->
-    </div><!-- #phone -->
-    <div id="sessions"></div>
+		  </div><!-- .controls -->
+		</div><!-- #phone -->
+		<div id="sessions"></div>
+	</div>
     <div id="ws_reconnect"></div>
     <div id="unregister_all"></div>
   </div><!-- phone-page -->

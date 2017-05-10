@@ -1,5 +1,5 @@
 body {
-  /*min-width: 1120px*/
+  min-width: 1120px
 }
 
 body, div, span, img, h1, h2, h3, h4, h5, h6, form, table, td, tr, p {
@@ -405,7 +405,7 @@ div.balloonInvitationTip a:hover {
 /***************** phone ***************/
 /*******************************************/
 #phone {
-  /*position: relative;*/
+  position: relative;
   float: left;
   width: 270px;
   padding: 20px 10px;
@@ -413,7 +413,7 @@ div.balloonInvitationTip a:hover {
   background: url("../images/bule.png") repeat;
   border-radius: 0 0 10px 0;
   margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 60px;
   border-radius: 5px;
   margin-left: 10px;
 }
@@ -445,7 +445,6 @@ div.balloonInvitationTip a:hover {
   border-radius: 5px;
   color: #000;
   opacity: 0.8;
-  display:none;
 }
 
 #phone .status > div + div {
@@ -561,9 +560,9 @@ div.balloonInvitationTip a:hover {
 }
 
 #phone .dialbox .dial-buttons .button {
-  height: 35px;
-  line-height: 35px;
-  font-size: 15px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 25px;
   font-weight: bold;
   cursor: pointer;
   color: #fff;
@@ -572,18 +571,16 @@ div.balloonInvitationTip a:hover {
   text-align: center;
   user-select: none;
   border-radius: 5px;
-  width: 25%;
+  width: 45%;
   text-indent: -999px;
 }
 #phone .dialbox .dial-buttons .button.call{
   float: left;
   background: center url("../icons/icon1.png") no-repeat #3dc8f5;
-  background-size: 25px;
 }
 #phone .dialbox .dial-buttons .button.chat{
   float:right;
   background: center url("../icons/icon2.png") no-repeat #3dc8f5;
-  display: none;
 }
 
 #phone .dialbox .dial-buttons .button:hover {
@@ -641,13 +638,11 @@ div.balloonInvitationTip a:hover {
 /***************** sessions ***************/
 /*******************************************/
 #sessions {
-  /*position: absolute;*/
-  z-index: 9999;
+  position: relative;
   float: left;
   margin-left: 10px;
-  width: 290px;
-  /*padding-top:60px;*/
-  margin-top:20px;
+  width: 300px;
+  padding-top:60px;
 }
 
 #sessions .session {
@@ -1073,25 +1068,23 @@ div.balloonInvitationTip a:hover {
   font-style: italic;
 }
 
-.reldiv {
-	position: relative;
-}
+
 
 /***************** webcam **************/
 /***************************************/
 #webcam {
-  position: relative;
-  top: 0;
-  left: 0px;
-  width: 100%;
+  position: absolute;
+  top: 60px;
+  right: 0px;
+  width: 400px;
   height: 300px;
   /* padding: 6px; */
   /* background: url("../images/transparent-black-25-bg.png") repeat; */
   border-radius: 10px;
   /* border: 2px solid #fff; */
   display: none;
-  background-color: #000;
-  /*background-color: #3dc8f5;*/
+  background-color: #3dc8f5;
+  /* background-color: white; */
   padding-top: 10px;
   padding-bottom: 10px;
 }

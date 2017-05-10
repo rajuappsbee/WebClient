@@ -643,7 +643,8 @@ div.balloonInvitationTip a:hover {
   float: left;
   margin-left: 10px;
   width: 290px;
-  padding-top:60px;
+  /*padding-top:60px;*/
+  margin-top:20px;
 }
 
 #sessions .session {

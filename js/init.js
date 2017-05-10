@@ -531,7 +531,7 @@ var u          = getQueryString('u'),
     // Apply custom settings.
     if (window.Settings) {
       if (window.Settings.videoDisabledByDefault) {
-        $('#enableVideo').prop('checked', false);
+        $('#enableVideo').prop('checked', true);
       }
     }
 

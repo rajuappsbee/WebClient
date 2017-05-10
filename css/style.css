@@ -408,7 +408,7 @@ div.balloonInvitationTip a:hover {
   /*position: relative;*/
   float: left;
   width: 270px;
-  padding: 20px 10px;
+  padding: 10px;
   /*background: url("../images/transparent-25-bg.png") repeat;*/
   background: url("../images/bule.png") repeat;
   border-radius: 0 0 10px 0;
@@ -492,6 +492,7 @@ div.balloonInvitationTip a:hover {
   background: #fff;
   border-radius: 5px;
   float: left;
+  width: 93%;
 }
 
 .intxt {

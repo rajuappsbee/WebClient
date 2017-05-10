@@ -526,7 +526,8 @@ div.balloonInvitationTip a:hover {
   display: block;
   /*position: relative;*/
   width: 50%;
-  padding: 0 5px 0 40px;
+  /*padding: 0 5px 0 40px;*/
+  padding: 0;
   height: 35px;
   line-height: 35px;
   border: 1px solid #3dc8f5;

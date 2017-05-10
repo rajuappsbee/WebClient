@@ -638,7 +638,8 @@ div.balloonInvitationTip a:hover {
 /***************** sessions ***************/
 /*******************************************/
 #sessions {
-  position: relative;
+  position: absolute;
+  z-index: 9999;
   float: left;
   margin-left: 10px;
   width: 300px;

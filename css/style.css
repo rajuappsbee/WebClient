@@ -485,10 +485,9 @@ div.balloonInvitationTip a:hover {
 /* controls */
 #phone .controls {
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 18px;
-  padding-bottom: 10px;
+  /*margin-top: 20px;
+  margin-bottom: 20px;*/
+  padding: 10px;
   /*background: url("../images/transparent-black-75-bg.png") repeat;*/
   background: #fff;
   border-radius: 5px;

@@ -492,8 +492,15 @@ div.balloonInvitationTip a:hover {
   /*background: url("../images/transparent-black-75-bg.png") repeat;*/
   background: #fff;
   border-radius: 5px;
+  float: left;
 }
 
+.intxt {
+	float: left;
+	width: 60%;
+	background: #3dc8f5;
+	border-radius: 5px;
+}
 
 #phone .controls .ws-disconnected {
   position: absolute;
@@ -517,11 +524,11 @@ div.balloonInvitationTip a:hover {
 
 #phone .dialbox input.destination {
   display: block;
-  position: relative;
-  width: 186px;
+  /*position: relative;*/
+  width: 50%;
   padding: 0 5px 0 40px;
-  height: 43px;
-  line-height: 43px;
+  height: 35px;
+  line-height: 35px;
   border: 1px solid #3dc8f5;
   margin: 0;
   outline: none; /* Remove the border when has the focus */
@@ -538,26 +545,29 @@ div.balloonInvitationTip a:hover {
   border-color: #38b8e2;
 }
 #phone .dialbox input.destination:focus {
-  border-color: #EEE;
-  opacity: 1;
+  border-color: none;
+  /*opacity: 1;*/
 }
 
 #phone .dialbox .to {
-  position: absolute;
+  /*position: absolute;
   z-index: 10;
-  top: 2px;
-  padding-left: 8px;
   height: 40px;
-  line-height: 40px;
-  font-size: 150%;
+  top: 2px;*/
+  padding-left: 8px;
+  line-height: 35px;
+  font-size: 15px;
   color: #FFF;
-    font-weight: bold;
+  float: left;
+  font-weight: bold;
 }
 
 #phone .dialbox .dial-buttons {
- position: relative;
- margin-top: 10px;
-  height: 50px;
+ /*position: relative;
+	margin-top: 10px;
+  height: 50px;*/
+  float: right;
+  width: 25%;
 }
 
 #phone .dialbox .dial-buttons .button {
@@ -572,7 +582,7 @@ div.balloonInvitationTip a:hover {
   text-align: center;
   user-select: none;
   border-radius: 5px;
-  width: 25%;
+  width: 100%;
   text-indent: -999px;
 }
 #phone .dialbox .dial-buttons .button.call{

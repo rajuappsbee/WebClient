@@ -125,7 +125,18 @@
   </div>
 
   <div id="phone-page">
-
+	<div id="webcam">
+      <video id="remoteView" autoplay _hidden=true ></video>
+      <!--<video id="remoteView" autoplay _hidden=true poster="images/logo.png"></video>-->
+      <!--<video id="remoteView" autoplay
+        src="http://shapeshed.com/examples/HTML5-video-element/video/320x240.ogg">
+      </video>-->
+      <video id="selfView" autoplay muted="true" _hidden=true></video>
+      <!--<video id="selfView" autoplay
+        src="http://shapeshed.com/examples/HTML5-video-element/video/320x240.ogg">
+      </video>-->
+    </div>
+    
     <div id="phone">
 
       <div class="status">
@@ -195,17 +206,6 @@
       </div><!-- .controls -->
     </div><!-- #phone -->
     <div id="sessions"></div>
-    <div id="webcam">
-      <video id="remoteView" autoplay _hidden=true ></video>
-      <!--<video id="remoteView" autoplay _hidden=true poster="images/logo.png"></video>-->
-      <!--<video id="remoteView" autoplay
-        src="http://shapeshed.com/examples/HTML5-video-element/video/320x240.ogg">
-      </video>-->
-      <video id="selfView" autoplay muted="true" _hidden=true></video>
-      <!--<video id="selfView" autoplay
-        src="http://shapeshed.com/examples/HTML5-video-element/video/320x240.ogg">
-      </video>-->
-    </div>
     <div id="ws_reconnect"></div>
     <div id="unregister_all"></div>
   </div><!-- phone-page -->

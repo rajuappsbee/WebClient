@@ -1083,8 +1083,8 @@ div.balloonInvitationTip a:hover {
   border-radius: 10px;
   /* border: 2px solid #fff; */
   display: none;
-  background-color: #3dc8f5;
-  /* background-color: white; */
+  background-color: #000;
+  /*background-color: #3dc8f5;*/
   padding-top: 10px;
   padding-bottom: 10px;
 }

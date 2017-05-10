@@ -1,5 +1,5 @@
 body {
-  min-width: 1120px
+  /*min-width: 1120px*/
 }
 
 body, div, span, img, h1, h2, h3, h4, h5, h6, form, table, td, tr, p {
@@ -405,7 +405,7 @@ div.balloonInvitationTip a:hover {
 /***************** phone ***************/
 /*******************************************/
 #phone {
-  position: relative;
+  /*position: relative;*/
   float: left;
   width: 270px;
   padding: 20px 10px;
@@ -413,7 +413,7 @@ div.balloonInvitationTip a:hover {
   background: url("../images/bule.png") repeat;
   border-radius: 0 0 10px 0;
   margin-bottom: 20px;
-  margin-top: 339px;
+  margin-top: 20px;
   border-radius: 5px;
   margin-left: 10px;
 }
@@ -638,11 +638,11 @@ div.balloonInvitationTip a:hover {
 /***************** sessions ***************/
 /*******************************************/
 #sessions {
-  position: absolute;
+  /*position: absolute;*/
   z-index: 9999;
   float: left;
   margin-left: 10px;
-  width: 300px;
+  width: 250px;
   padding-top:60px;
 }
 

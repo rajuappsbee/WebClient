@@ -19,8 +19,8 @@ $(document).ready(function(){
   $('#use-tryit-account-link a').focus();
 
   // Global variables.
-  //var PageTitle = "PortGo";
-  //document.title = PageTitle;
+  var PageTitle = "PortGo";
+  document.title = PageTitle;
 
   register_checkbox = $("#phone > .status #register");
   phone_dialed_number_screen = $("#phone > .controls  input.destination");
@@ -531,7 +531,7 @@ var u          = getQueryString('u'),
     // Apply custom settings.
     if (window.Settings) {
       if (window.Settings.videoDisabledByDefault) {
-        $('#enableVideo').prop('checked', true);
+        $('#enableVideo').prop('checked', false);
       }
     }
 
